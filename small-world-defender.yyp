@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "6cbc0642-5926-4756-8d2a-161fc1dbcfaa",
+            "Value": {
+                "id": "33b0d45a-c368-45cd-9763-80b90fe5f36d",
+                "resourcePath": "scripts\\draw_enemy\\draw_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6d28245a-9d95-4d25-bcd0-92a646c7c8e8",
             "Value": {
                 "id": "057995c7-7f64-4f52-bba1-f1ea417c6d26",
@@ -368,7 +376,7 @@
         }
     ],
     "script_order": [
-        
+        "6cbc0642-5926-4756-8d2a-161fc1dbcfaa"
     ],
     "tutorial": ""
 }
