@@ -1,5 +1,9 @@
 movement_cooldown = 60;
-movement_distance = 25;
+movement_distance = 100;
+moving = false
+distance = 0
+movement_index = 0
+hitpoints = 10
 
 possible_positions_x[0] = x;
 possible_positions_y[0] = y;

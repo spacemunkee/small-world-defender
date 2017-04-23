@@ -1,5 +1,7 @@
+if(hitpoints < 1) instance_destroy()
+
 image_angle -= 5
-moving = false
+
 movement_cooldown -= 1
 
 if(movement_cooldown < 1 && !moving) {
@@ -17,7 +19,11 @@ if(moving) {
 	if(distance > 5) {
 		move_towards_point(new_x, new_y, 5)
 	} else {
+		distance = 0
+		x = new_x
+		y = new_y
 		speed = 0
 		moving = false	
 	}
 }
+
