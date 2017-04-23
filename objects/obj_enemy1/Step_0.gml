@@ -1,23 +1,23 @@
 image_angle -= 5
 moving = false
+movement_cooldown -= 1
 
-if(random_range(0, 10) < 4) {
-
-	// get new x, y position
-	amount_x = random_range(-MAX_MOVE_AMOUNT, MAX_MOVE_AMOUNT) + 100
-	amount_y = random_range(-MAX_MOVE_AMOUNT, MAX_MOVE_AMOUNT) + 100
-	
-	new_x = start_x + amount_x;
-	new_y = start_y + amount_y;
-	
+if(movement_cooldown < 1 && !moving) {
+	movement_cooldown = 60
 	moving = true
+	
+	movement_index = irandom_range(0, 4);
+	
+	new_x = possible_positions_x[movement_index]
+	new_y = possible_positions_y[movement_index]
 }
 
 if(moving) {
-	if(point_distance(x, y, new_x, new_y) > 0) {
-		move_towards_point(new_x, new_y, 5)	
+	distance = point_distance(x, y, new_x, new_y)
+	if(distance > 5) {
+		move_towards_point(new_x, new_y, 5)
 	} else {
 		speed = 0
-		moving = false
+		moving = false	
 	}
 }
