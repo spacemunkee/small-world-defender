@@ -1,0 +1,5 @@
+MAX_MOVE_AMOUNT = 200
+MIN_MOVE_COOLDOWN = 100
+MAX_MOVE_COOLDOWN = 150
+start_x = x
+start_y = y
