@@ -1,1 +1,1 @@
-spawn_check_cooldown = 60
+spawn_check_cooldown = 200

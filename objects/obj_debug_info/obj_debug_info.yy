@@ -2,7 +2,7 @@
     "id": "f0d64697-c157-4f8f-8fcc-fcd09d5b1c45",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_fps",
+    "name": "obj_debug_info",
     "eventList": [
         {
             "id": "1855d6e1-4fe2-4fdb-b1a1-dd831544d0ca",

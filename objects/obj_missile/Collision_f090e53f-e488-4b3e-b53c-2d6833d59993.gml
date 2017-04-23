@@ -1,5 +1,7 @@
 with(other) {
-	hitpoints -= 3
+	hitpoints -= 1
+	flash = true
+	flash_cooldown = 3
 }
 
 instance_destroy()

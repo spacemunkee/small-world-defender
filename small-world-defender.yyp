@@ -314,7 +314,7 @@
             "Key": "f0d64697-c157-4f8f-8fcc-fcd09d5b1c45",
             "Value": {
                 "id": "8bc179de-bb98-4c18-9842-31407f316223",
-                "resourcePath": "objects\\obj_fps\\obj_fps.yy",
+                "resourcePath": "objects\\obj_debug_info\\obj_debug_info.yy",
                 "resourceType": "GMObject"
             }
         },
