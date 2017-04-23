@@ -3,7 +3,8 @@ movement_distance = 100;
 moving = false
 distance = 0
 movement_index = 0
-hitpoints = 3
+max_hitpoints = 3
+hitpoints = max_hitpoints
 flash = false;
 flash_cooldown = 0;
 

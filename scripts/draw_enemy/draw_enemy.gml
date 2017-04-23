@@ -16,4 +16,5 @@ if (flash) {
 }
 
 draw_self();
-draw_text(x - sw / 2, (y - (h / 2)) - sh, string(hitpoints));
+var amount = (hitpoints / max_hitpoints) * 100
+draw_healthbar(x - w / 2 + 15, (y - (h / 2)) - 10, x + w / 2 - 15, (y - (h / 2)) - 8, amount,  c_black, c_red, c_lime, 0, true, false)

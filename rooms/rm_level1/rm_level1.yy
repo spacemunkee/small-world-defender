@@ -188,15 +188,15 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4278190080
+                "Value": 4294967295
             },
             "hspeed": 0,
-            "htiled": false,
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "htiled": true,
+            "spriteId": "48ff462f-b80e-41ee-9a8b-5edf1b7e48b3",
             "stretch": false,
             "userdefined_animFPS": false,
             "vspeed": 0,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
             "y": 0
         }
