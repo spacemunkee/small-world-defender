@@ -1,5 +1,6 @@
+var dmg = damage
 with(other) {
-	hitpoints -= 1
+	hitpoints -= dmg
 	flash = true
 	flash_cooldown = 4
 }
