@@ -1,5 +1,7 @@
 if(hitpoints < 1) {
 	global.score += value
+	instance_create_layer(x, y, layer, obj_explosion)
+	audio_play_sound(snd_explosion, 2, false)
 	instance_destroy()
 }
 
@@ -34,6 +36,7 @@ if(shoot_cooldown <= 0) {
 	if(irandom(2) == 1) { // 50% chance to shoot
 		instance_create_layer(x, y, layer, obj_enemy_projectile)
 		shoot_cooldown = max_shoot_cooldown
+		audio_play_sound(snd_enemy_shoot, 2, false)
 	}
 }
 
