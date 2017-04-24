@@ -1,4 +1,4 @@
- // end game on win/mac/linux if esc
+// end game on win/mac/linux if esc
 // THIS IS TEMPORARY UNTIL GAME MENU IS INTRODUCED
 if keyboard_check_pressed(vk_escape) game_end();
 

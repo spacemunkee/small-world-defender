@@ -1,4 +1,7 @@
-if(hitpoints < 1) instance_destroy()
+if(hitpoints < 1) {
+	global.score += value
+	instance_destroy()
+}
 
 image_angle -= 5
 
@@ -24,6 +27,13 @@ if(moving) {
 		y = new_y
 		speed = 0
 		moving = false	
+	}
+}
+
+if(shoot_cooldown <= 0) {
+	if(irandom(2) == 1) { // 50% chance to shoot
+		instance_create_layer(x, y, layer, obj_enemy_projectile)
+		shoot_cooldown = max_shoot_cooldown
 	}
 }
 

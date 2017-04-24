@@ -1,0 +1,1 @@
+draw_text(window_get_width() - 125, 25, "SCORE: " + string(global.score))
