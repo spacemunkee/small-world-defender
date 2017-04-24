@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "name": "rm_end",
     "IsDnD": false,
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -15,10 +15,36 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "id": "a3c252fe-0ff6-4273-bd83-c51f647f3ea7",
+            "id": "fbd07773-b82f-4b22-9a77-a035846d5bd6",
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "depth": 0,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+                
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "name": "FadeLayer",
+            "userdefined_depth": false,
+            "visible": true,
+            "instances": [
+                
+            ]
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "id": "a3c252fe-0ff6-4273-bd83-c51f647f3ea7",
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -91,7 +117,7 @@
             "id": "2278a733-2876-4581-b27b-7aa614104cec",
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -113,12 +139,12 @@
             "colour": {
                 "Value": 4294967295
             },
-            "hspeed": 1,
+            "hspeed": 0,
             "htiled": true,
             "spriteId": "48ff462f-b80e-41ee-9a8b-5edf1b7e48b3",
             "stretch": false,
             "userdefined_animFPS": false,
-            "vspeed": 0,
+            "vspeed": 1,
             "vtiled": true,
             "x": 0,
             "y": 0

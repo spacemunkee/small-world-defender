@@ -2,7 +2,7 @@
 
 enemy_x = argument0
 enemy_y = argument1
-player = obj_earth
+player = obj_player
 
 if(point_in_rectangle(	enemy_x, 
 						enemy_y, 
