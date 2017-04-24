@@ -4,6 +4,7 @@ if keyboard_check_pressed(vk_escape) game_end();
 
 if(hitpoints <= 0) {
 	// instance_create_layer(0, 0, "FadeLayer", obj_fade_transition)
+	mouse_clear(mb_any)
 	room_goto_next()
 }
 

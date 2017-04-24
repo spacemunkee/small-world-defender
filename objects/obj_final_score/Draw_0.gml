@@ -2,7 +2,7 @@ cw = camera_get_view_width(view_camera[0]) / 2
 ch = camera_get_view_height(view_camera[0]) / 2
 
 final_score = "FINAL SCORE: " + string(global.score)
-back_to_menu = "PRESS SPACE TO RETURN TO MENU"
+back_to_menu = "PRESS SPACEBAR TO RETURN TO MENU"
 credits1 = "MUSIC BY SYTEQ (http://syteq.newgrounds.com/)"
 credits2 = "ART BY KENNEY (https://kenney.itch.io/)"
 
